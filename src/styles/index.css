@@ -110,7 +110,7 @@
   }
 
 
-  h1, h2, h3, p, li, a {
+  h1, h2, h3, p, li, .Link1, .Link2 {
 
     color: rgb(0, 0, 0);
 
@@ -149,7 +149,7 @@
 
   }
 
-  h1, h2, h3, p, li, a {
+  h1, h2, h3, p, li, .Link1, .Link2 {
 
     color: white;
 
@@ -178,6 +178,14 @@
 
 
 }
+
+.Link3 {
+
+  color: #9eafe4;
+  text-decoration: underline;
+
+}
+
 
 
 h1 {
