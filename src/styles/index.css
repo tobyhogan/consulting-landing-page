@@ -54,7 +54,7 @@
 
     /* CODE BELOW KEEPS TOGGLE NAV DISPLAYED EVEN IN WIDER MODE */
 
-    display: auto;
+    display: none;
 
     padding-top: 9px;
 

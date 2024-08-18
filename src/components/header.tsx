@@ -22,9 +22,7 @@ function Header() {
 
   const navList = 
     <>
-
-      <Link to="/demos" className="Link2 hover:underline">Feature Demos</Link>    
-      <Link to="/hashdemo" className="Link2 hover:underline">URL Hashes</Link>    
+ 
       <Link to="/page1" className="Link2 hover:underline">Page 1</Link>
       <Link to="/page2" className="Link2 hover:underline">Page 2</Link>
 
@@ -183,12 +181,14 @@ function Header() {
           : null }
 
         </div>
+        {/*
         <div className="ThemeToggler">
 
           { isDark ? (<button onClick={handleToggleTheme}><MdOutlineDarkMode size={28} className="text-black dark:text-white"/></button>)
             : (<button onClick={handleToggleTheme}><MdLightMode size={28} className="text-black dark:text-white"/></button>) }
 
         </div>
+        */}
       </div>
 
     </header>
