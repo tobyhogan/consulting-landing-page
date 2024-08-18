@@ -27,7 +27,7 @@ const IndexPage: React.FC<PageProps> = () => {
       <Header />
       <main className="pt-20 pb-10">
         <img src={projectimage} className="border-2 border-slate-300 dark:border-slate-600 mt-12 rounded-lg"></img>
-        <h1 className="text-center mt-8 text-2xl">Consulting for Business and Small Business</h1>
+        <h1 className="text-center mt-8 text-2xl">Consulting for Business and Small Business Based in Frome, Somereset</h1>
         <div className="flex flex-col mx-auto w-fit mt-8">
           <a className='Button2 rounded-md py-2 px-5 text-white dark:text-black bg-slate-500 dark:bg-[#7d87bc] hover:bg-slate-400 dark:hover:bg-[#6f79a9] hover:cursor-pointer'>Get in Touch Now!</a>
           <a href="https://habit-tracker-indol-ten.vercel.app/" className="Link2 mt-4 underline text-blue-400 mx-auto">Alternate Action</a>
@@ -52,4 +52,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Landing Page</title>
+export const Head: HeadFC = () => <title>Kazen Consulting</title>
